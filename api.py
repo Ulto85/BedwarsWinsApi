@@ -10,4 +10,4 @@ class MinceCraft():
         n = supper.find_all('table')[1].find_all('tr')[2].find_all('td')[6].get_text()
         return n
 minecraft = MinceCraft()
-print(minecraft.get_solo_wins('CoolDabber'))
+
